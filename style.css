@@ -1,0 +1,22 @@
+li{
+    list-style: none;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.title{
+    font-weight: bold;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+img {
+    /* float:left; */
+    grid-column: 1 / 2 ;
+    /* grid-column-end: 2; */
+    grid-row: 1 / span 4;
+    width: 90px;
+    margin-right: 10px;
+}
